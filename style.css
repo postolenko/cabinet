@@ -1131,11 +1131,11 @@ body {
 }
 
 .pagination_sect .col:nth-child(1) {
-    width: 220px;
+    width: 217px;
 }
 
 .pagination_sect .col:nth-child(2) {
-    width: calc(100% - 440px);
+    width: calc(100% - 434px);
 }
 
 .pagination {
@@ -1145,7 +1145,7 @@ body {
 .pagination li {
     display: inline-block;
     vertical-align: top;
-    padding: 10px;
+    padding: 10px 5px;
 }
 
 .pagination li a {
@@ -1202,6 +1202,82 @@ body {
 
 /*-- /Section 1 - Private 2 --*/
 
+/*-- Section 1 - Private 3 --*/
+
+.tab_links {
+    margin: 18px 0 0 0;
+}
+
+.tab_links li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 16px;
+}
+
+.tab_link {
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #767676;
+    border-bottom: 1px solid transparent;
+    -webkit-transition-property: border, color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border, color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border, color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border, color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border, color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.tab_link:link,
+.tab_link:visited {
+    border-bottom: 1px solid transparent;
+    color: #767676;
+    font-weight: normal;
+}
+
+.tab_link.active,
+.tab_link.active:hover,
+.tab_link:active {
+    border-bottom: 1px solid #007a2a;
+    color: #007a2a;
+    font-weight: bold;
+}
+
+.tab_link:hover {
+    border-bottom: 1px solid #007a2a;
+    color: #007a2a;
+    font-weight: normal;
+}
+
+.tab_links + .orders_table {
+    margin-top: 17px;
+}
+
+.order_item {
+    position: relative;
+}
+
+.order_item .close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/*-- /Section 1 - Private 3 --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

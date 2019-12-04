@@ -98,4 +98,10 @@ $(document).ready(function() {
 		$(this).closest(".good_table").removeClass("active");
     });
 
+
+	$(".order_item .close_btn").on("click", function(e) {
+    	e.preventDefault();
+    	$(this).closest(".order_item").remove();
+    });
+
 });
