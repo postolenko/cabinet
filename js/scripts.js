@@ -65,4 +65,37 @@ $(document).ready(function() {
         }
     });
 
+   	// ----------------------
+    
+    $(".count_box button").click(function(e) {
+        e.preventDefault();
+        parentBlock = $(this).closest(".count_box");
+        var countInput = parentBlock.find("input");
+        var countVal = countInput.val();
+        if( $(this).hasClass("minus_btn") && countVal > 1 ) {
+            countVal--;
+        } else if( $(this).hasClass("plus_btn")) {
+            countVal++;
+        }
+        if(countVal == "") {
+            countVal = 1;
+        }
+        countInput.val(countVal);
+        if(parentBlock.hasClass("goods_count")) {
+            countTotalPrice();
+        }
+    });
+
+    // -------------------
+
+    $(".good_table .close_btn").on("click", function(e) {
+    	e.preventDefault();
+    	$(this).closest(".good_table").addClass("active");
+    });
+
+    $(".return_btn").on("click", function(e) {
+		e.preventDefault();
+		$(this).closest(".good_table").removeClass("active");
+    });
+
 });

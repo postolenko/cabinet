@@ -314,6 +314,11 @@ textarea:focus {
     margin: 0 auto;
 }
 
+.row_3 {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
 .reset_wrapp * {
     margin: 0;
     padding: 0;
@@ -673,6 +678,387 @@ body {
 }
 
 /*-- /Section 1 - Enter --*/
+
+/*-- Section 1 - Basket --*/
+
+.basket_templ {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+}
+
+.basket_templ .left_col {
+    width: calc(100% - 270px);
+    padding-right: 12px;
+    padding-left: 15px;
+}
+
+.basket_templ .right_col {
+    width: 270px;
+    padding-left: 12px;
+}
+
+.good_table {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    width: 100%;
+    position: relative;
+    background-color: #f0f1f4;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.good_table .mask {
+    z-index: -1;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(120, 144, 156, .4);
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.good_table.active .mask {
+    z-index: 2;
+    opacity: 1;
+}
+
+.good_table .mask .blue_pill {
+    position: absolute;
+    top: 50%;
+    right: 58px;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.good_table .col {
+    padding: 0 5px 0 5px;
+}
+
+.good_table .col:nth-child(1) {
+    width: 110px;
+}
+
+.good_table .col:nth-child(2) {
+    width: 32%;
+}
+
+.good_table .col:nth-child(3) {
+    width: 21%;
+}
+
+.good_table .col:nth-child(4) {
+    width: 32%;
+}
+
+.good_table .img_box {
+    max-width: 90px;
+    height: 91px;
+    overflow: hidden;
+    position: relative;
+}
+
+.good_table .img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.good_table h3 {
+    font-family: "Museo Sans Cyrl";
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.good_table p {
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #979797;
+}
+
+.good_table p .black {
+    color: #000000;
+}
+
+.count_box {
+    display: flex;
+    display: -webkit-flex;
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 230, 232);
+    height: 30px;
+    width: 124px;
+    margin: 3px 0;
+}
+
+.count_box button {
+    width: 40px;
+    height: 28px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    background-image: url(img/plus_minus.png);
+    background-repeat: no-repeat;
+}
+
+.count_box input {
+    width: 44px;
+    height: 28px;
+    text-align: center;
+    font-family: "Museo Sans Cyrl";
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #000000;
+    border: none;
+    border-left: 1px solid rgb(230, 230, 232);
+    border-right: 1px solid rgb(230, 230, 232);
+}
+
+.minus_btn {
+    background-position: 11px 9px;
+}
+
+.plus_btn {
+    background-position: 11px -21px;
+}
+
+.close_btn {
+    border: none;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(img/close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.good_table .close_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.good_table .col:nth-child(4) p {
+    padding: 4px 0;
+}
+
+.total_price {
+    padding: 26px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 216, 220);;
+}
+
+.total_price h3 {
+    font-family: "Museo Sans Cyrl";
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #979797;
+}
+
+.price {
+    font-family: "Museo Sans Cyrl";
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.total_price .green_pill {
+    margin: 24px 0 28px 0;
+}
+
+.blue_pill {
+    display: inline-flex;
+    vertical-align: top;
+    align-items: center;
+    -webkit-align-items: center;
+    cursor: pointer;
+    padding: 6px 18px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #90a4ae;
+    border: none;
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #ffffff;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.blue_pill:link,
+.blue_pill:visited {
+    background-color: #90a4ae;
+}
+
+.blue_pill:active,
+.blue_pill.active {
+    background-color: #81b5d0;
+}
+
+.blue_pill:hover {
+    background-color: #81b5d0;
+}
+
+.return {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 36px;
+    background-image: url(img/return.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.blue_pill .return {
+    margin-right: 10px;
+}
+
+.basket_btn_wrapp {
+    text-align: right;
+}
+
+.transparent_pill {
+    display: inline-flex;
+    vertical-align: top;
+    cursor: pointer;
+    padding: 11px 19px;
+    align-items: center;
+    -webkit-align-items: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(171, 171, 171);
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #ababab;
+    background: rgba(255, 255, 255, 0);
+    -webkit-transition-property: background, border, box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background, border, box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background, border, box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background, border, box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background, border, box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.transparent_pill:link,
+.transparent_pill:visited {
+    border: 1px solid rgb(171, 171, 171);
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+
+.transparent_pill:active,
+.transparent_pill.active {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+.transparent_pill:hover {
+    border: 1px solid rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+
+.basket_grey {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19px;
+    height: 23px;
+    background-image: url(img/grey_basket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.transparent_pill .basket_grey {
+    margin-right: 9px;
+}
+
+/*-- /Section 1 - Basket --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
