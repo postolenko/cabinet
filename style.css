@@ -811,7 +811,7 @@ body {
     color: #979797;
 }
 
-.good_table p .black {
+.black {
     color: #000000;
 }
 
@@ -1059,6 +1059,149 @@ body {
 }
 
 /*-- /Section 1 - Basket --*/
+
+/*-- Section 1 - Private 2 --*/
+
+.orders_table {
+    border-bottom: 1px solid #ffffff;
+    margin: 20px 0;
+}
+
+.order_item {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background: #f0f1f4;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding: 12px 10px 20px 10px;
+}
+
+.order_item .col {
+    padding: 0 10px;
+}
+
+.order_item .col:nth-child(1) {
+    width: 29%;
+}
+
+.order_item .col:nth-child(2) {
+    width: 44%;
+}
+
+.order_item .col:nth-child(3) {
+    width: 27%;
+}
+
+.order_item p {
+    padding: 4px 0;
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: normal;
+    color: #979797;
+}
+
+.links_table {
+    display: flex;
+    -webkit-display: flex;
+    margin: 3px 0;
+}
+
+.links_table p {
+    padding: 1px 0;
+}
+
+.links_table div:nth-child(1) {
+    padding-right: 5px;
+}
+
+.links_table div {
+
+}
+
+.pagination_sect {
+    display: flex;
+    -webkit-display: flex;
+    padding: 0 10px;
+}
+
+.pagination_sect .col {
+    padding: 10px 5px;
+}
+
+.pagination_sect .col:nth-child(1) {
+    width: 220px;
+}
+
+.pagination_sect .col:nth-child(2) {
+    width: calc(100% - 440px);
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.pagination li a {
+    display: block;
+    min-width: 30px;
+    height: 31px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    font-family: "Museo Sans Cyrl";
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #38995a;
+    -webkit-transition-property: background, color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background, color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background, color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background, color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background, color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.pagination li a:link,
+.pagination li a:visited {
+    background-color: rgb(235, 235, 235);
+    color: #38995a;
+}
+
+.pagination li a.active,
+.pagination li a:active {
+    background-color: #38995a;
+    color: #ffffff;
+}
+
+.pagination li a:hover {
+    background-color: #38995a;
+    color: #ffffff;
+}
+
+/*-- /Section 1 - Private 2 --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
