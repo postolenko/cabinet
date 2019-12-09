@@ -9,6 +9,14 @@
 
 @media only screen and (max-width: 1060px) {
 
+	/*-- Section 1 - Enter --*/
+
+	.inner_wrapp {
+	    padding: 0;
+	}
+
+	/*-- /Section 1 - Enter --*/
+
 	/*-- Section 1 - Basket --*/
 
 	.good_table {
@@ -105,6 +113,10 @@
 	    background: #ffffff;
 	}
 
+	.personal_account h2 {
+	    padding: 10px 0;
+	}
+
 	/*-- Section 1 - Basket --*/
 
 	.basket_templ {
@@ -171,12 +183,12 @@
 		display: block;
 	}
 
-	.two_cols .left_col {
+	.two_cols_2 .left_col {
 	    width: 100%;
 	    padding-right: 0;
 	}
 
-	.two_cols .right_col {
+	.two_cols_2 .right_col {
 	    width: 100%;
 	    padding-left: 0;
 	}
@@ -190,6 +202,33 @@
 	}
 
 	/*-- /Section 1 - Private 4 --*/
+
+	/*-- Section 1 - Enter --*/
+
+	.personal_account_content {
+	    padding: 10px 0 3px 0;
+	}
+
+	.two_cols {
+		display: block;
+	}
+
+	.two_cols .left_col {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.two_cols .right_col {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-top: 3px;
+	}
+
+	.submit_wrapp {
+	    padding: 9px 0;
+	}
+
+	/*-- /Section 1 - Enter --*/
 
 }
 
