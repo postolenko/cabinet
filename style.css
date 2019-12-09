@@ -1955,6 +1955,10 @@ p.p_red {
     min-width: auto;
 }
 
+.mob_600_visible {
+    display: none;
+}
+
 /*-- /Section 1 - Private 6 --*/
 
 /*-- Modal --*/
