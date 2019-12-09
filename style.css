@@ -576,7 +576,7 @@ body {
 }
 
 .submit_wrapp {
-    padding: 24px 0 10px 0;
+    padding: 26px 0 10px 0;
 }
 
 .checkbox_wrapp p {
@@ -630,7 +630,6 @@ body {
     display: block;
     width: 100%;
     cursor: pointer;
-    /*padding: 11px 10px 11px 10px;*/
     padding: 11px 20px;
     border: 1px solid transparent;
     -webkit-border-radius: 5px;
@@ -677,6 +676,13 @@ body {
 .green_pill:hover {
     background-color: #00b33e;
 }
+
+
+
+.input_wrapp.pill_wrapp {
+    padding-top: 23px;
+}
+
 
 /*-- /Section 1 - Enter --*/
 
