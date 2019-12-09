@@ -309,6 +309,10 @@ textarea:focus {
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
 
+.overflow_wrapp {
+    overflow: hidden;
+}
+
 .row_2 {
     max-width: 1108px;
     margin: 0 auto;
@@ -766,19 +770,24 @@ body {
 }
 
 .good_table .col:nth-child(1) {
-    width: 110px;
+    max-width: 110px;
+    width: 15%;
+    order: 1;
 }
 
 .good_table .col:nth-child(2) {
-    width: 32%;
+    width: 33%;
+    order: 2;
 }
 
 .good_table .col:nth-child(3) {
-    width: 21%;
+    width: 29%;
+    order: 4;
 }
 
 .good_table .col:nth-child(4) {
-    width: 32%;
+    width: 23%;
+    order: 3;
 }
 
 .good_table .img_box {
@@ -1063,6 +1072,40 @@ body {
 
 .transparent_pill .basket_grey {
     margin-right: 9px;
+}
+
+.basket_btn_wrapp_resp {
+    display: none;
+}
+
+.resp_box {
+    display: none;
+    text-align: center;
+}
+
+.resp_box p {
+    font-family: "Museo Sans Cyrl";
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #979797;
+}
+
+.resp_box p a {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p.p_grey {
+    color: #979797;
+}
+
+p.p_black {
+    color: #000000;
+}
+
+p.p_red {
+    color: #ef5350;
 }
 
 /*-- /Section 1 - Basket --*/

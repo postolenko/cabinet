@@ -1,30 +1,276 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1150px) {
 
+	.reset_wrapp {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 
+}
+
+@media only screen and (max-width: 1060px) {
+
+	/*-- Section 1 - Basket --*/
+
+	.good_table {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	}
+
+	.good_table .col:nth-child(1) {
+	    width: 110px;
+	}
+
+	.good_table .col:nth-child(2) {
+	    width: calc(100% - 110px);
+	}
+
+	.good_table .col:nth-child(3) {	    
+	    width: 260px;
+	    order: 4;	    
+	}
+
+	.good_table .col:nth-child(4) {
+	    width: calc(100% - 260px);
+	    padding-left: 114px;
+	    order: 3;
+	}
+
+	/*-- /Section 1 - Basket --*/
 
 }
 
 
 @media only screen and (max-width: 900px) {
 
+	/*-- Section 1 - Private 3 --*/
 
+	.order_item {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+
+	.order_item .col:nth-child(1) {
+	    width: 100%;
+	}
+
+	.order_item .col:nth-child(1) p {
+		display: inline-block;
+		vertical-align: top;
+		padding-right: 25px;
+	}
+
+	.order_item .col:nth-child(2) {
+	    width: 60%;
+	}
+
+	.order_item .col:nth-child(3) {
+	    width: 40%;
+	    display: flex;
+	    display: -webkit-flex;
+	    justify-content: flex-end;
+	    -webkit-justify-content: flex-end;
+	}
+
+	.pagination_sect .col:nth-child(2) {
+	    width: calc(100% - 217px);
+	    display: flex;
+	    display: -webkit-flex;
+	    justify-content: flex-end;
+	    -webkit-justify-content: flex-end;
+	}
+
+	.order_item .close_btn {
+	    top: 5px;
+	}
+
+	/*-- /Section 1 - Private 3 --*/
+
+}
+
+@media only screen and (max-width: 850px) {
+
+	/*-- Section 1 - Basket --*/
+
+	.good_table .col:nth-child(4) {
+	    padding-left: 5px;
+	}
+
+	/*-- /Section 1 - Basket --*/
 
 }
 
 @media only screen and (max-width: 767px) {
 
+	/*-- Section 1 - Basket --*/
 
+	.basket_templ {
+		display: block;
+	}
+
+	.basket_templ .left_col {
+	    width: 100%;
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+
+	.basket_templ .right_col {
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+	.tab_novisible {
+		display: none;
+	}
+
+	.basket_btn_wrapp_resp {
+		display: block;
+		padding: 10px 0;
+	}
+
+	/*-- /Section 1 - Basket --*/
+
+	/*-- Section 1 - Private 3 --*/
+
+	.tabs_wrapp {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	}
+
+	/*-- /Section 1 - Private 3 --*/
 
 }
 
 @media only screen and (max-width: 600px) {
 
+	.reset_wrapp {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
+	/*-- Section 1 - Private 3 --*/
+
+	.tab_links {
+		margin: 8px 0 0 0;
+		text-align: center;
+	}
+
+	.order_item .col:nth-child(2) {
+	    width: 100%;
+	}
+
+	.order_item .col:nth-child(3) {
+	    width: 100%;
+	   	justify-content: flex-start;
+	    -webkit-justify-content: flex-start;
+	}
+
+	.pagination_sect .col:nth-child(1) {
+		display: none;
+	}
+
+	.pagination_sect .col:nth-child(2) {
+	    width: 100%;
+	    justify-content: center;
+	    -webkit-justify-content: center;
+	}
+
+	/*-- /Section 1 - Private 3 --*/
 
 }
 
 
 @media only screen and (max-width: 480px) {
 
-	
+	/*-- Section 1 - Basket --*/
+
+	.good_table {
+	    padding: 10px 5px;
+	}
+
+	.good_table .close_btn {
+	    top: 5px;
+	}
+
+	.good_table .col:nth-child(3) {
+		display: flex;
+		display: -webkit-flex;
+		width: 100%;
+		order: 3;
+		padding: 15px 0 10px 0;
+	}
+
+	.good_table .col:nth-child(4) {
+		width: 100%;
+		order: 4;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.good_table .col:nth-child(3) p {
+		width: 50%;
+		padding: 0 10px;
+	}
+
+	.good_table .col:nth-child(3) p  span {
+		display: block;
+	}
+
+	.good_table .col:nth-child(4) .count_box {
+		margin: 0 auto;
+	}
+
+	.good_table .mask .blue_pill {
+	    top: 50%;
+	    right: 50%;
+	    -webkit-transform: translate(50%, -50%);
+	    -moz-transform: translate(50%, -50%);
+	    transform: translate(50%, -50%);
+	}
+
+	.total_price {
+		padding: 15px 20px;
+		text-align: center;
+	}
+
+	.resp_box {
+		display: block;
+	    margin-bottom: 13px;
+	}
+
+	.basket_btn_wrapp_resp {
+		text-align: center;
+	}
+
+	.total_price .green_pill {
+	    margin: 24px 0 14px 0;
+	}
+
+	/*-- /Section 1 - Basket --*/
+
+	/*-- Section 1 - Private 3 --*/
+
+	.tabs_wrapp {
+	    flex-wrap: wrap;
+	    -webkit-flex-wrap: wrap;
+	     margin: 0 -5px;
+	}
+
+	.tabs_wrapp div {
+		width: 50%;
+		padding: 5px;
+	}
+
+	.tab_pill {
+		display: block;
+	    padding: 10px 5px 10px 5px;
+	}
+
+	.tab_pill.active,
+	.tab_pill.active:hover {
+	    padding: 9px 5px 9px 5px;
+	}
+
+	/*-- /Section 1 - Private 3 --*/
+
+
 }
