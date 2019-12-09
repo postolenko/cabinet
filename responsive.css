@@ -369,6 +369,55 @@
 		margin: 10px 0;
 	}
 
+	.personal_account_content_2 .inner_wrapp_2:after {
+	    width: calc(100% + 20px);
+	    left: -10px;
+	}
+
+	/*-- /Section 1 - Private 4 --*/
+
+	/*-- Section 1 - Private 5 --*/
+
+	.info_item .tabs_wrapp_2 {
+	    margin: 5px 0;
+	}
+
+	.tabs_wrapp_2 div {
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	.info_item .input_wrapp_2 {
+	    width: 100%;
+	    max-width: 100%;
+    	margin: 43px 0 18px 0;
+	}
+
+	.choose_radiobtns {
+		margin: 0;
+	}
+
+	.choose_radiobtns > div {
+		width: 100%;
+	    padding: 7px 0;
+	}
+
+	.choose_radio {
+	    width: 100%;
+	}
+
+	/*-- /Section 1 - Private 5 --*/
+
+}
+
+@media only screen and (max-width: 350px) {
+
+	/*-- /Section 1 - Private 4 --*/
+
+	.tab_pill {
+	    font-size: 15px;
+	}
+
 	/*-- /Section 1 - Private 4 --*/
 
 }

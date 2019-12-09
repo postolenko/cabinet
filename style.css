@@ -1433,12 +1433,21 @@ p.p_red {
 
 .personal_account_content_2 .inner_wrapp_2 {
     padding: 5px 15px 17px 15px;
-    border-bottom: 1px solid #b0bec5;
+    position: relative;
 }
 
-.personal_account_content_2 .inner_wrapp_2:last-child {
-    border-bottom: none;
-    padding-bottom: 9px;
+.personal_account_content_2 .inner_wrapp_2:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #b0bec5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.personal_account_content_2 .inner_wrapp_2:last-child:after {
+    display: none;
 }
 
 .plus {
