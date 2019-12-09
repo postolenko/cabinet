@@ -147,10 +147,6 @@ body {
     height: 100%;
 }
 
-body {
-    background: #ffffff;
-}
-
 .wrapper {
     position: relative;
     display: flex;

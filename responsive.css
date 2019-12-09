@@ -101,6 +101,10 @@
 
 @media only screen and (max-width: 767px) {
 
+	body {
+	    background: #ffffff;
+	}
+
 	/*-- Section 1 - Basket --*/
 
 	.basket_templ {
@@ -153,6 +157,40 @@
 
 	/*-- /Section 1 - Private 3 --*/
 
+	/*-- Section 1 - Private 4 --*/
+
+	.personal_account_content_2 {
+	    margin: 5px 0;
+	}
+
+	.personal_account_content_2 .inner_wrapp_2 {
+	    padding: 5px 0 17px 0;
+	}
+
+	.two_cols_2 {
+		display: block;
+	}
+
+	.two_cols .left_col {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.two_cols .right_col {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	.two_cols_3 {
+	    padding-top: 0;
+	}
+
+	.checkbox_wrapp {
+	    margin: 15px 0;
+	}
+
+	/*-- /Section 1 - Private 4 --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -190,6 +228,23 @@
 	}
 
 	/*-- /Section 1 - Private 3 --*/
+
+	/*-- Section 1 - Private 4 --*/
+
+	.inline_blocks {
+	    margin: 0;
+	}
+
+	.inline_blocks > div {
+		width: 100%;
+	    margin: 10px 0;
+	}
+
+	.input_wrapp_2 {
+	    width: 100%;
+	}
+
+	/*-- /Section 1 - Private 4 --*/
 
 }
 
@@ -287,5 +342,33 @@
 
 	/*-- /Section 1 - Private 3 --*/
 
+	/*-- Section 1 - Private 4 --*/
+
+	.important_box {
+		display: block;
+		padding: 18px 12px;
+	}
+
+	.important_box .col_1 {
+	    width: 42px;
+	    margin: 0 auto 10px auto;
+	    padding-top: 0;
+	}
+
+	.important_box .col_2 {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	.tags {
+	    margin: 0;
+	}
+
+	.tag {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	/*-- /Section 1 - Private 4 --*/
 
 }
