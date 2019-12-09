@@ -79,14 +79,6 @@
 	    -webkit-justify-content: flex-end;
 	}
 
-	.pagination_sect .col:nth-child(2) {
-	    width: calc(100% - 217px);
-	    display: flex;
-	    display: -webkit-flex;
-	    justify-content: flex-end;
-	    -webkit-justify-content: flex-end;
-	}
-
 	.order_item .close_btn {
 	    top: 5px;
 	}
@@ -165,6 +157,10 @@
 
 	.order_item:last-child {
 	    margin-bottom: 0;
+	}
+
+	.more_btn_wrapp {
+	    margin-top: 20px;
 	}
 
 	/*-- /Section 1 - Private 3 --*/
@@ -309,16 +305,6 @@
 	    width: 100%;
 	   	justify-content: flex-start;
 	    -webkit-justify-content: flex-start;
-	}
-
-	.pagination_sect .col:nth-child(1) {
-		display: none;
-	}
-
-	.pagination_sect .col:nth-child(2) {
-	    width: 100%;
-	    justify-content: center;
-	    -webkit-justify-content: center;
 	}
 
 	/*-- /Section 1 - Private 3 --*/

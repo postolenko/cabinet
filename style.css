@@ -1162,29 +1162,18 @@ p.p_red {
     padding-right: 5px;
 }
 
-.links_table div {
+.more_btn_wrapp {
 
 }
 
-.pagination_sect {
-    display: flex;
-    -webkit-display: flex;
-    padding: 0 10px;
-}
-
-.pagination_sect .col {
-    padding: 10px 5px;
-}
-
-.pagination_sect .col:nth-child(1) {
-    width: 217px;
-}
-
-.pagination_sect .col:nth-child(2) {
-    width: calc(100% - 434px);
+.more_btn_wrapp .green_pill {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
 }
 
 .pagination {
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -1963,17 +1952,6 @@ p.p_red {
 
 /*-- Modal --*/
 
-/*.modal_wrapp {
-    overflow-y: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: 30;
-    background-color: rgba(0, 0, 0, .65);
-}*/
-
 .modal_white {
     padding: 44px 25px 42px 25px;
     max-width: 540px;
@@ -1983,10 +1961,6 @@ p.p_red {
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(207, 216, 220);
-/*    position: relative;
-    top: 50%;
-    left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
     z-index: 2;
     text-align: center;
 }
