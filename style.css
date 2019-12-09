@@ -1980,6 +1980,7 @@ body {
 
 /*-- /Modal --*/
 
+/*-- Bootstrap Modal Styles --*/
 
 .modal-open {
   overflow: hidden;
@@ -2147,3 +2148,5 @@ body {
     max-width: 300px;
   }
 }
+
+/*-- /Bootstrap Modal Styles --*/
