@@ -109,4 +109,9 @@ $(document).ready(function() {
         $(this).closest(".tag").remove();
     });
 
+    $(".order_item_2 .close_btn").on("click", function(e) {
+        e.preventDefault();
+        $(this).closest(".order_item_2").remove();
+    });
+
 });
