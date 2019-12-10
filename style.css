@@ -1162,11 +1162,7 @@ p.p_red {
     padding-right: 5px;
 }
 
-.more_btn_wrapp {
-
-}
-
-.more_btn_wrapp .green_pill {
+.more_btn_wrapp .transparent_pill_2 {
     width: 100%;
     max-width: 480px;
     margin: 0 auto;
