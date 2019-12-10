@@ -159,18 +159,6 @@ body {
     min-height: 100vh;
 }
 
-header {
-
-}
-
-.content {
-
-}
-
-footer {
-
-}
-
 input,
 textarea,
 button,
@@ -243,26 +231,6 @@ section {
     position: relative;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-p {
-
-}
-
 a {
     text-decoration: none;
 }
@@ -283,22 +251,6 @@ a:hover,
 a:active {
     -webkit-tap-highlight-color: rgba(0,0,0,0); 
     -webkit-tap-highlight-color: transparent;
-}
-
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
 }
 
 /*-------------------------------------------*/
@@ -337,10 +289,6 @@ body {
 }
 
 /*-- Section 1 - Enter --*/
-
-.personal_account {
-
-}
 
 .personal_account h2 {
     padding: 15px 0;
@@ -462,10 +410,6 @@ body {
 
 .select_wrapp.active {
     position: relative;
-}
-
-.select_input {
-
 }
 
 .select_wrapp:after {
@@ -677,12 +621,9 @@ body {
     background-color: #00b33e;
 }
 
-
-
 .input_wrapp.pill_wrapp {
     padding-top: 23px;
 }
-
 
 /*-- /Section 1 - Enter --*/
 
@@ -1192,7 +1133,7 @@ p.p_red {
     font-family: "Museo Sans Cyrl";
     font-size: 18px;
     line-height: 28px;
-    font-weight: bold;
+    font-weight: normal;
     color: #38995a;
     -webkit-transition-property: background, color;
     -webkit-transition-duration: .3s;
@@ -1738,10 +1679,6 @@ p.p_red {
     padding: 6px;
 }
 
-.icons_list li i {
-
-}
-
 .mir {
     display: block;
     width: 42px;
@@ -1831,10 +1768,6 @@ p.p_red {
     line-height: 23px;
     font-weight: normal;
     color: #231d1d;
-}
-
-.orders_items_2 {
-
 }
 
 .order_item_2 {
