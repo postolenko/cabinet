@@ -1187,10 +1187,11 @@ p.p_red {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    border: 2px solid transparent;
     background-color: rgb(235, 235, 235);
     font-family: "Museo Sans Cyrl";
     font-size: 18px;
-    line-height: 30px;
+    line-height: 28px;
     font-weight: bold;
     color: #38995a;
     -webkit-transition-property: background, color;
@@ -1216,19 +1217,16 @@ p.p_red {
 
 .pagination li a:link,
 .pagination li a:visited {
-    background-color: rgb(235, 235, 235);
-    color: #38995a;
+    border: 2px solid transparent;
 }
 
 .pagination li a.active,
 .pagination li a:active {
-    background-color: #38995a;
-    color: #ffffff;
+    border: 2px solid #38995a;
 }
 
 .pagination li a:hover {
-    background-color: #38995a;
-    color: #ffffff;
+    border: 2px solid #38995a;
 }
 
 /*-- /Section 1 - Private 2 --*/
