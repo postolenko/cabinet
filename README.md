@@ -4,4 +4,5 @@
 # http://postolenko.github.io/cabinet/private_3.html
 # http://postolenko.github.io/cabinet/private_4.html
 # http://postolenko.github.io/cabinet/private_5.html
+# http://postolenko.github.io/cabinet/private_6.html
 # http://postolenko.github.io/cabinet/modal.html
